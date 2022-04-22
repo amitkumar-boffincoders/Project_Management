@@ -26,6 +26,7 @@
     "apexcharts": "^3.33.2",
     "date-fns": "^2.28.0",
     "font-awesome": "^4.6.3",
+    "heroku": "^7.60.1",
     "jsx": "^0.9.89",
     "material-icons": "^1.10.8",
     "material-react-js": "^5.0.0-prerelease.4",
