@@ -67,7 +67,9 @@ export const Project_info = () => {
     <div>
       <section className="info">
         <div className="task-list">
-          <h1>Project Information</h1>
+         <div className="dash">
+         <h4>Project Information</h4>
+         </div>
           <div className="row">
             <div className="col-sm-3">
               <div className="status">

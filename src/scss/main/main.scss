@@ -2487,11 +2487,11 @@ File: Menu
   overflow: hidden;
 }
 .notifi-title {
-  color: #000000;
-  font-size: 16px;
-  font-weight: 400;
-  padding: 10px 0 10px;
-  margin-top: -5px;
+  color: #000000 !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  padding: 10px 0 10px !important;
+  margin-top: -5px !important;
   background-color: #e09a0d;
 }
 .navbar-form {
@@ -3060,7 +3060,8 @@ ul.nav.d-flex {
 .user-profile {
   margin: -10px 0;
   background: #ffff;
-  padding: 15px 12px 30px 12px;
+  padding: 15px 12px 1px;
+  border-radius: 18px;
 }
 .dash h6 {
   color: #939aac;
@@ -3085,10 +3086,7 @@ ul.nav.d-flex {
 .dash .text-center img {
   max-width: 65%;
 }
-ul.dropdown-menu.show li {
-  margin: 0 !important;
-  padding: 0 !important;
-}
+
 .graph {
   span {
     color: #df9500;
@@ -3114,7 +3112,7 @@ ul.dropdown-menu.show li {
 }
 .history {
   border: 1px solid #ccc;
-  border-radius: 12px;
+  border-radius: 18px;
   padding: 0 8px;
   margin: 1px 0 20px 0;
 }
@@ -3163,7 +3161,7 @@ ul.task-list {
 }
 ul.task-list img {
   float: left;
-  margin: 10px 17px 0 0;
+  margin: 10px 10px 10px 0;
   background: #d5797f57;
   padding: 11px;
   border-radius: 12px;
@@ -3203,7 +3201,7 @@ ul.task-list li {
 }
 
 .cmnt {
-  margin-top: 11px;
+  padding: 11px 0;
   h4 {
     font-size: 16px;
     font-weight: 600;
@@ -3211,6 +3209,7 @@ ul.task-list li {
   }
   p {
     font-size: 13px;
+    margin: 0;
     color: #939aac;
   }
 }

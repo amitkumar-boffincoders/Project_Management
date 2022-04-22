@@ -26,7 +26,9 @@ export const Typography = () => {
         <div className="col-xl-6">
           <div className="card m-b-30">
             <div className="card-body">
+              <div className="dash">
               <h4 className="mt-0 header-title">Headings</h4>
+              </div>
               <p className="sub-title">
                 All HTML headings,{" "}
                 <code className="highlighter-rouge">&lt;h1&gt;</code> through{" "}
@@ -75,7 +77,9 @@ export const Typography = () => {
 
           <div className="card m-b-30">
             <div className="card-body">
+              <div className="dash">
               <h4 className="mt-0 header-title">Inline text elements</h4>
+              </div>
               <p className="sub-title">
                 Styling for common inline HTML5 elements.
               </p>
@@ -119,7 +123,9 @@ export const Typography = () => {
 
           <div className="card m-b-30">
             <div className="card-body">
-              <h4 className="mt-0 header-title">Unstyled List</h4>
+             <div className="dash">
+             <h4 className="mt-0 header-title">Unstyled List</h4>
+             </div>
               <p className="sub-title">
                 Remove the default{" "}
                 <code className="highlighter-rouge">list-style</code> and left
@@ -150,7 +156,11 @@ export const Typography = () => {
         <div className="col-xl-6">
           <div className="card m-b-30">
             <div className="card-body">
-              <h4 className="mt-0 header-title">Display headings</h4>
+             <div className="dash">
+             <div className="dash">
+             <h4 className="mt-0 header-title">Display headings</h4>
+             </div>
+             </div>
               <p className="sub-title">
                 Traditional heading elements are designed to work best in the
                 meat of your page content.{" "}
@@ -165,7 +175,9 @@ export const Typography = () => {
 
           <div className="card m-b-30">
             <div className="card-body">
+              <div className="dash">
               <h4 className="mt-0 header-title">Blockquotes</h4>
+              </div>
               <p className="sub-title">
                 For quoting blocks of content from another source within your
                 document. Wrap{" "}
@@ -202,7 +214,9 @@ export const Typography = () => {
 
           <div className="card m-b-30">
             <div className="card-body">
-              <h4 className="mt-0 header-title">Inline List</h4>
+            <div className="dash">
+            <h4 className="mt-0 header-title">Inline List</h4>
+            </div>
               <p className="sub-title">
                 Remove a list’s bullets and apply some light{" "}
                 <code className="highlighter-rouge">margin</code> with a

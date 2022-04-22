@@ -112,8 +112,8 @@ export default function LabTabs() {
             </ul>
           </TabPanel>
           <TabPanel value="2">
-            <TableContainer component={Paper}>
-              <Table sx={{ minWidth: 650 }} aria-label="simple table">
+            <Table component={Paper}>
+              <Table sx={{ minWidth: 650 }} aria-label="simple table ">
                 <TableHead>
                   <TableRow>
                     <TableCell>
@@ -122,7 +122,7 @@ export default function LabTabs() {
                   </TableRow>
                 </TableHead>
               </Table>
-            </TableContainer>
+            </Table>
             <TableContainer component={Paper}>
               <Table sx={{ minWidth: 650 }} aria-label="simple table">
                 <TableHead>
@@ -175,21 +175,17 @@ export default function LabTabs() {
                 </TableBody>
               </Table>
             </TableContainer>
-            <TableContainer component={Paper}>
+            <TableContainer component={Paper} className="mt-3">
               <Table sx={{ minWidth: 650 }} aria-label="simple table">
                 <TableHead>
                   <TableRow>
-                    <TableCell className="text-center">
+                    <TableCell>
                       <h5>Subtotal</h5>
                       <h6>#40,000</h6>
                       Australia
                     </TableCell>
-                    <TableCell className="text-center">
-                      <h5>GST(10%)</h5>
-                      <h6>$2,500</h6>
-                      Australia
-                    </TableCell>
-                    <TableCell className="text-center">
+                   
+                    <TableCell align="right" >
                       <h5>Total</h5>
                       <h6>$42,500</h6>
                       Australia

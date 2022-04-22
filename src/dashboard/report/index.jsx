@@ -136,7 +136,7 @@ const Report = () => {
             >
               <TableCell component="th" scope="row"> <img src={row.profile_image}/> {row.name}</TableCell>
               <TableCell>{row.rating}</TableCell>
-              <TableCell align="center">{row.weekly}</TableCell>
+              <TableCell >{row.weekly}</TableCell>
               <TableCell>{row.work}</TableCell>
               <TableCell>{row.note}</TableCell>
               <TableCell>

@@ -10,7 +10,7 @@ export const Carousal = () => {
         <div className="row">
           <div className="col-xl-6">
             <div className="card m-b-20">
-              <div className="card-body">
+              <div className="dash">
                 <h4 className="mt-0 header-title">Slides only</h4>
                 <div
                   id="carouselExampleSlidesOnly"
@@ -48,7 +48,7 @@ export const Carousal = () => {
 
           <div className="col-xl-6">
             <div className="card m-b-20">
-              <div className="card-body">
+              <div className="dash">
                 <h4 className="mt-0 header-title">With controls</h4>
                 <div
                   id="carouselExampleControls"
@@ -108,7 +108,7 @@ export const Carousal = () => {
           </div>
           <div className="col-xl-6">
             <div className="card m-b-20">
-              <div className="card-body">
+              <div className="dash">
                 <h4 className="mt-0 header-title">With Captions</h4>
                 <div
                   id="demo"
@@ -182,7 +182,7 @@ export const Carousal = () => {
           </div>
           <div className="col-xl-6">
             <div className="card m-b-20">
-              <div className="card-body">
+              <div className="dash">
                 <h4 className="mt-0 header-title">
                   With indicators and control
                 </h4>

@@ -1,11 +1,13 @@
 import React from "react";
 import circle1 from "../../images/users/circle1.png";
 import circle2 from "../../images/users/circle2.png";
-import Stack from "@mui/material/Stack";
-import TextField from "@mui/material/TextField";
-import AdapterDateFns from "@mui/lab/AdapterDateFns";
-import LocalizationProvider from "@mui/lab/LocalizationProvider";
-import MobileDatePicker from "@mui/lab/MobileDatePicker";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCloud,
+  faShare,
+  faStar,
+  faHistory
+} from "@fortawesome/free-solid-svg-icons";
 
 const ActiveSprint = () => {
   return (
@@ -28,29 +30,28 @@ const ActiveSprint = () => {
               </button>
               <img src={circle1} />
               <img src={circle2} />
-              <span>Only My Issues</span>
-              <span>Recently Updated</span>
+
             </div>
           </div>
           <div className="d-flex flex-row-reverse pb-3">
             <button type="text">
-              <i className="fa fa-share"></i>
+            <FontAwesomeIcon icon={faStar}/>
             </button>
             <button type="text">
-              <i className="	fa fa-star "></i>
+             <FontAwesomeIcon icon={faShare}/>
             </button>
             <button type="text">
-              <i className="fa fa-cloud"></i>
+              <FontAwesomeIcon icon={faCloud}/>
             </button>
             <button type="text">
-              <i className="	fa fa-history">14 days remaining</i>
+              <FontAwesomeIcon icon={faHistory}>14 days remaining</FontAwesomeIcon>
             </button>
           </div>
         </div>
         <div className="row">
           <div className="col-sm-4">
             <div className="dash">
-              <h4>TO do</h4>
+              <h4>To Do</h4>
             </div>
             <div className="task-list">
               <div className="team-work">

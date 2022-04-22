@@ -40,16 +40,16 @@ export const Backlog = () => {
               {(provided) => (
                 <div className="task-list Characters">
                   <div className="row">
-                    <div className="col-sm-3 dash">
+                    <div className="col-sm-3 dash" style={{padding:"7px 17px"}}>
                       <h4>TO do</h4>
                     </div>
-                    <div className="col-sm-3 dash">
+                    <div className="col-sm-3 dash"  style={{padding:"7px 17px"}}>
                       <h4>In Process</h4>
                     </div>
-                    <div className="col-sm-3 dash">
+                    <div className="col-sm-3 dash"  style={{padding:"7px 17px"}}>
                       <h4>Review</h4>
                     </div>
-                    <div className="col-sm-3 dash">
+                    <div className="col-sm-3 dash"  style={{padding:"7px 17px"}}>
                       <h4>Done</h4>
                     </div>
                   </div>

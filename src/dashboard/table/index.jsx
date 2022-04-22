@@ -3,11 +3,12 @@ import React from "react";
 export const Table = () => {
   return (
     <section className="content">
-      <div className="dash">
-        <h4>Tables</h4>
-      </div>
+     
       <div className="task-list">
-        <h4 className="p-3">Basic Table</h4>
+      <div className="dash">
+        <h4> Tables Example</h4>
+      </div>
+        <b>Basic Table</b>
         <table className="table table-striped">
           <thead>
             <tr>
@@ -46,7 +47,7 @@ export const Table = () => {
         </table>
       </div>
       <div className="task-list">
-        <h4 className="p-3">Variants Table</h4>
+        <b >Variants Table</b>
         <table className="table table-striped">
           <thead>
             <tr>
@@ -100,7 +101,7 @@ export const Table = () => {
         </table>
       </div>
       <div className="task-list">
-        <h4 className="p-3">Hoverable Table</h4>
+        <b>Hoverable Table</b>
         <table className="table hoverable">
           <thead>
             <tr>

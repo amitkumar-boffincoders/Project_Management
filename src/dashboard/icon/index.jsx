@@ -82,212 +82,212 @@ export const Icon = () => {
               <div className="card-body">
                 <div className="row">
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                    <FontAwesomeIcon icon={faMobileAlt}/> mdi
+                    <FontAwesomeIcon icon={faMobileAlt} className="m-2"/> mdi
                     mdi-access-point
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faNavicon}/> mdi
+                  <FontAwesomeIcon icon={faNavicon} className="m-2"/> mdi
                     mdi-access-point-network
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faGift}/> mdi mdi-gift
+                  <FontAwesomeIcon icon={faGift} className="m-2"/> mdi mdi-gift
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faDashboard}/> mdi
+                  <FontAwesomeIcon icon={faDashboard} className="m-2"/> mdi
                     mdi-dashboard
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faAdd}/> mdi
+                  <FontAwesomeIcon icon={faAdd} className="m-2"/> mdi
                     mdi-add
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faCarAlt}/> mdi
+                  <FontAwesomeIcon icon={faCarAlt} className="m-2"/> mdi
                     mdi-car-alt
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faSackDollar}/> mdi
+                  <FontAwesomeIcon icon={faSackDollar} className="m-2"/> mdi
                     mdi-SackDollar
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faEarListen}/> mdi
+                  <FontAwesomeIcon icon={faEarListen} className="m-2"/> mdi
                     mdi-EarListen
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faLocation}/> mdi
+                  <FontAwesomeIcon icon={faLocation} className="m-2"/> mdi
                     mdi-loaction
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faMobileAlt}/>mdi
+                  <FontAwesomeIcon icon={faMobileAlt} className="m-2"/>mdi
                     mdi-MobileAlt
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faJetFighter}/> mdi
+                  <FontAwesomeIcon icon={faJetFighter} className="m-2"/> mdi
                     mdi-jetfighter
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faPaintbrush}/> mdi
+                  <FontAwesomeIcon icon={faPaintbrush} className="m-2"/> mdi
                     mdi-Paintbrush
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faJar}/> mdi
+                  <FontAwesomeIcon icon={faJar} className="m-2"/> mdi
                     mdi-Jar
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faIcicles}/> mdi
+                  <FontAwesomeIcon icon={faIcicles} className="m-2"/> mdi
                     mdi-Icicles
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faFaceAngry}/>
+                  <FontAwesomeIcon icon={faFaceAngry} className="m-2"/>
                     mdi mdi-FaceAngry
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faGaugeHigh}/>mdi
+                  <FontAwesomeIcon icon={faGaugeHigh} className="m-2"/>mdi
                     mdi-GaugeHigh
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faEdit}/> mdi
+                  <FontAwesomeIcon icon={faEdit} className="m-2"/> mdi
                     mdi-Edit
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faTable}/> mdi
+                  <FontAwesomeIcon icon={faTable} className="m-2"/> mdi
                     mdi-Table
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faTablet}/>mdi
+                  <FontAwesomeIcon icon={faTablet} className="m-2"/>mdi
                     mdi-Tablet
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faDatabase}/> mdi
+                  <FontAwesomeIcon icon={faDatabase} className="m-2"/> mdi
                     mdi-Database
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faFaceFrown}/> mdi
+                  <FontAwesomeIcon icon={faFaceFrown} className="m-2"/> mdi
                     mdi-FaceFrown
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faHamburger}/> mdi
+                  <FontAwesomeIcon icon={faHamburger} className="m-2"/> mdi
                     mdi-Hamburger
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faLandmark}/>mdi
+                  <FontAwesomeIcon icon={faLandmark} className="m-2"/>mdi
                     mdi-Landmark
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faMagic}/>
+                  <FontAwesomeIcon icon={faMagic} className="m-2"/>
                     mdi mdi-Magic
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faNetworkWired}/> mdi
+                  <FontAwesomeIcon icon={faNetworkWired} className="m-2"/> mdi
                     mdi-NetworkWired
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faBaby}/> mdi
+                  <FontAwesomeIcon icon={faBaby} className="m-2"/> mdi
                     mdi-Baby
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faCake}/> mdi mdi-Cake                  </div>
+                  <FontAwesomeIcon icon={faCake} className="m-2"/> mdi mdi-Cake                  </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faFileZipper}/> mdi
+                  <FontAwesomeIcon icon={faFileZipper} className="m-2"/> mdi
                     mdi-FileZipper
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faEarth}/> mdi
+                  <FontAwesomeIcon icon={faEarth} className="m-2"/> mdi
                     mdi-Earth
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faQuestion}/>mdi mdi-Question
+                  <FontAwesomeIcon icon={faQuestion} className="m-2"/>mdi mdi-Question
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faAddressBook}/> mdi
+                  <FontAwesomeIcon icon={faAddressBook} className="m-2"/> mdi
                     mdi-AddressBook
                   </div>
 
                 
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
                   <FontAwesomeIcon icon={faAdjust
-                  }/> mdi
+                  } className="m-2"/> mdi
                     mdi-Adjust
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faWind}/> mdi
+                  <FontAwesomeIcon icon={faWind} className="m-2"/> mdi
                     mdi-Wind
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faTabletButton}/> mdi
+                  <FontAwesomeIcon icon={faTabletButton} className="m-2"/> mdi
                     mdi-TabletButton
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faZap}/>mdi
+                  <FontAwesomeIcon icon={faZap} className="m-2"/>mdi
                     mdi-Zap
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faBabyCarriage}/> mdi
+                  <FontAwesomeIcon icon={faBabyCarriage} className="m-2"/> mdi
                     mdi-BabyCarriage
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faLaptop}/>mdi mdi-laptop
+                  <FontAwesomeIcon icon={faLaptop} className="m-2"/>mdi mdi-laptop
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faObjectGroup}/> mdi
+                  <FontAwesomeIcon icon={faObjectGroup} className="m-2"/> mdi
                     mdi-ObjectGroup
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faInbox}/> mdi mdi-inbox
+                  <FontAwesomeIcon icon={faInbox} className="m-2"/> mdi mdi-inbox
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faLineChart}/> mdi mdi-LineChart
+                  <FontAwesomeIcon icon={faLineChart} className="m-2"/> mdi mdi-LineChart
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faPieChart}/> mdi mdi-PieChart
+                  <FontAwesomeIcon icon={faPieChart} className="m-2"/> mdi mdi-PieChart
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faDeaf}/>mdi
+                  <FontAwesomeIcon icon={faDeaf} className="m-2"/>mdi
                     mdi-Deaf
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faUndoAlt}/>mdi mdi-UndoAlt
+                  <FontAwesomeIcon icon={faUndoAlt} className="m-2"/>mdi mdi-UndoAlt
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faPager}/> mdi mdi-pager
+                  <FontAwesomeIcon icon={faPager} className="m-2"/> mdi mdi-pager
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faPaintRoller}/> mdi
+                  <FontAwesomeIcon icon={faPaintRoller} className="m-2"/> mdi
                     mdi-PaintRoller
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faYinYang}/> mdi
+                  <FontAwesomeIcon icon={faYinYang} className="m-2"/> mdi
                     mdi-YinYang
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faRadio}/> mdi mdi-Radio
+                  <FontAwesomeIcon icon={faRadio} className="m-2"/> mdi mdi-Radio
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faRainbow}/> mdi mdi-Rainbow
+                  <FontAwesomeIcon icon={faRainbow} className="m-2"/> mdi mdi-Rainbow
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faTaxi}/> mdi mdi-Taxi
+                  <FontAwesomeIcon icon={faTaxi} className="m-2"/> mdi mdi-Taxi
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faRankingStar}/> mdi
+                  <FontAwesomeIcon icon={faRankingStar} className="m-2"/> mdi
                     mdi-RankingStar
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faQuidditch}/> mdi mdi-Quidditch
+                  <FontAwesomeIcon icon={faQuidditch} className="m-2"/> mdi mdi-Quidditch
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faPallet}/>mdi mdi-Pallet
+                  <FontAwesomeIcon icon={faPallet} className="m-2"/>mdi mdi-Pallet
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faMagnet}/> mdi mdi-magnet
+                  <FontAwesomeIcon icon={faMagnet} className="m-2"/> mdi mdi-magnet
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faLayerGroup}/>mdi mdi-LayerGroup
+                  <FontAwesomeIcon icon={faLayerGroup} className="m-2"/>mdi mdi-LayerGroup
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faBackward}/> mdi mdi-Backward
+                  <FontAwesomeIcon icon={faBackward} className="m-2"/> mdi mdi-Backward
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
-                  <FontAwesomeIcon icon={faLadderWater}/> mdi mdi-LadderWater
+                  <FontAwesomeIcon icon={faLadderWater} className="m-2"/> mdi mdi-LadderWater
                   </div>
                 </div>
               </div>

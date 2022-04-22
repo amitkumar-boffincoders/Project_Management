@@ -83,11 +83,15 @@
     padding: 4px 8px;
     border-radius: 10px;
   }
+  label{
+    margin: -23px 0 0 0;
+  }
   label.badge-danger {
     border-radius: 7px;
     color: #fff;
     font-size: 10px;
     font-weight: 300;
+
   }
   label.badge-info {
     border-radius: 7px;

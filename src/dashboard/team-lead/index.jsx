@@ -210,7 +210,7 @@ export const Team = () => {
                   key={row.name}
                   sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
                 >
-                  <TableCell component="th" scope="row">  <img  src={row.profile_image} alt="" />{row.name}</TableCell>
+                  <TableCell className="p-3" component="th" scope="row">  <img  src={row.profile_image} alt="" /><br></br>{row.name}</TableCell>
                   <TableCell align="center">{row.project}</TableCell>
                   <TableCell align="center">{row.task}</TableCell>
                   <TableCell align="center">{row.email}</TableCell>

@@ -16,12 +16,7 @@ import {
 import profile from "../../images/users/profile.png";
 
 function createData(
-  id: number,
-  name: name,
-  start: Date,
-  end: Date,
-  amount: number,
-  status: String,
+  id,name, start,end,amount,status,
 )
  {
   return { id, name, start, end, amount, status };

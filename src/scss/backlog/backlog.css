@@ -9,6 +9,11 @@
   overflow-x: auto;
 }
 
+.recenty-update svg.svg-inline--fa {
+  font-size: 19px;
+  margin: 0px 9px;
+}
+
 .task-list {
   padding: 1px 0;
   height: auto;
@@ -19,6 +24,10 @@
   border: 1px solid #d5d5d5;
   margin: 10px 7px;
   border-radius: 7px;
+}
+
+.team-work .d-content img {
+  margin: 0 3px;
 }
 
 .team-work h5 {
@@ -89,7 +98,6 @@
 
 .search-task img {
   margin: 0 7px;
-  width: 4%;
 }
 
 .search-task button.input-group-text {

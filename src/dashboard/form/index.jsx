@@ -5,25 +5,13 @@ import Radio from '@mui/material/Radio';
 
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 export const Form = () => {
-  const [selectedValue, setSelectedValue] = React.useState('a');
-
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setSelectedValue(event.target.value);
-  };
-
-  const controlProps = (item: string) => ({
-    checked: selectedValue === item,
-    onChange: handleChange,
-    value: item,
-    name: 'color-radio-button-demo',
-    inputProps: { 'aria-label': item },
-  });
-
-  return (
+return (
     <section className="content">
       <div className="reviews">
         <div className="page-header">
-          <h5 className="page-title">Form elements</h5>
+        <div className="dash">
+        <h4 className="page-title">Form elements</h4>
+        </div>
           <nav aria-label="breadcrumb">
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
@@ -296,7 +284,7 @@ export const Form = () => {
                   <h4 className="card-title">Input size</h4>
                 </div>
                 <p className="card-description">
-                  Add classNamees like <code>.form-control-lg</code> and
+                  Add classNames like <code>.form-control-lg</code> and
                   <code>.form-control-sm</code>.
                 </p>
                 <div className="form-group">
@@ -544,13 +532,13 @@ export const Form = () => {
                     <div className="col-md-6">
                       <ul>
                         <li>
-                          <Radio {...controlProps('a')} />Checked
+                          <Radio  />Checked
                         </li>
-                        <li><Radio {...controlProps('b')} color="secondary" />Default Checked</li>
-                        <li><Radio {...controlProps('c')} color="success" />Success</li>
-                        <li> <Radio {...controlProps('d')} color="default" />Secondary</li>
+                        <li><Radio  color="secondary" />Default Checked</li>
+                        <li><Radio  color="success" />Success</li>
+                        <li> <Radio  color="default" />Secondary</li>
                         <li><Radio
-                          {...controlProps('e')}
+                          
                           sx={{
                             color: pink[800],
                             '&.Mui-checked': {
@@ -582,11 +570,11 @@ export const Form = () => {
                     <div className="col-md-6">
                       <ul>
                         <li>
-                          <Radio {...controlProps('a')} />Checked
+                          <Radio  />Checked
                         </li>
-                        <li><Radio {...controlProps('b')} color="secondary" />Default Checked</li>
-                        <li><Radio {...controlProps('c')} color="success" />Success</li>
-                        <li> <Radio {...controlProps('d')} color="default" />Secondary</li>
+                        <li><Radio  color="secondary" />Default Checked</li>
+                        <li><Radio  color="success" />Success</li>
+                        <li> <Radio  color="default" />Secondary</li>
 
                       </ul>
                     </div>
@@ -732,7 +720,7 @@ export const Form = () => {
                         <div className="col-sm-4">
                           <div className="form-check">
                             <label className="form-check-label">
-                            <Radio {...controlProps('b')} color="secondary" />
+                            <Radio  color="secondary" />
                               Free
                             </label>
                           </div>
@@ -740,7 +728,7 @@ export const Form = () => {
                         <div className="col-sm-5">
                           <div className="form-check">
                             <label className="form-check-label">
-                            <Radio {...controlProps('b')} color="success" />
+                            <Radio  color="success" />
                               Professional
                             </label>
                           </div>

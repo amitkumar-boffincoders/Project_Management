@@ -6,11 +6,12 @@ export class Donut extends React.Component {
     super(props);
 
     this.state = {
-      series: [0, 1, 80],
+      series: [50],
 
-      color: ["#DF9500", "#e7e7e7"],
+      // color: [ "#e7e7e7","#DF9500"],
 
       options: {
+        colors: ["#DF9500"],
         chart: {
           type: "donut",
         },
@@ -33,7 +34,7 @@ export class Donut extends React.Component {
       <div id="chart">
         <ReactApexChart
           options={this.state.options}
-          series={this.state.series}
+          series={[80]}
           type="donut"
         />
       </div>

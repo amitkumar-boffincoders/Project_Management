@@ -11,7 +11,7 @@ export const Client = () => {
   return (
     <section className="content">
       <div className="dash">
-        <h3>Clients</h3>
+        <h4>Clients</h4>
       </div>
       <div className="row">
         
