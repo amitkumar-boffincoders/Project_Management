@@ -1,0 +1,44 @@
+.login {
+  background-image: url("../../images/login-back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 115px 0;
+}
+
+.login .login-main {
+  background: #fff;
+  padding: 0;
+  border-radius: 20px;
+}
+
+.login .login-main img {
+  margin: -7px -7px;
+}
+
+.login .login-main .feild {
+  padding: 0 48px 0 0;
+}
+
+.login .login-main .feild p {
+  color: #000;
+}
+
+.login .login-main .feild h3 {
+  margin-left: 10px;
+  font-weight: 800;
+}
+
+.login .login-main h2 {
+  color: #fff;
+  font-weight: 900;
+}
+
+.login .login-main p {
+  color: #ffff;
+}
+
+.login button.btn.btn-warning {
+  padding: 7px 80px;
+  border-radius: 41px;
+}
+/*# sourceMappingURL=login.css.map */

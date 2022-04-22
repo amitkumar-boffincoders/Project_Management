@@ -1,0 +1,102 @@
+.progress-bar {
+  background-color: #df9500;
+}
+.recenty-update {
+    background: #fff;
+    border-radius: 18px;
+    padding: 4px 4px;
+    overflow-x: auto;
+}
+.task-list {
+  padding: 1px 0;
+  height: auto;
+}
+.team-work {
+  padding: 4px 8px;
+  border: 1px solid #d5d5d5;
+  margin: 10px 7px;
+  border-radius: 7px;
+ 
+
+  h5 {
+    margin: 17px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #70706f;
+  }
+  badge {
+    background: #df9500;
+    padding: 4px 7px;
+    color: #fff;
+    border-radius: 4px;
+  }
+  i.ti-check-box {
+    color: #4aabe5;
+    font-size: 21px;
+    font-weight: 800;
+  }
+  i.ti-bookmark {
+    color: green;
+    font-size: 21px;
+    font-weight: 800;
+  }
+  i.ti-upload {
+    color: red;
+    font-size: 21px;
+    font-weight: 800;
+  }
+}
+
+  .multiple {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #ccc; 
+    border-radius: 34px;
+    padding: 12px 13px;
+    font-weight: 800;
+    color: #a19898;
+  }
+
+.member {
+  padding: 17px 0;
+
+  h5 {
+    margin-top: 14px;
+  }
+  img {
+    margin: 0 3px;
+    width: max-content;
+  }
+}
+.content .social {
+  font-size: 19px;
+  margin: 0px 9px;
+}
+.search-task {
+  padding: 22px 0 0 13px;
+
+  img {
+    margin: 0 7px;
+    width: 4%;
+  }
+  button.input-group-text {
+    margin: 0 9px;
+    height: 38px;
+  }
+  span {
+    margin: 8px 14px;
+  }
+}
+.flex-row-reverse button {
+  padding: 4px 0 0 0;
+  border: none;
+  background: no-repeat;
+}
+
+.box.over {
+  border: 3px dotted #666;
+}
+
+[draggable] {
+  user-select: none;
+}

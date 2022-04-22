@@ -1,0 +1,104 @@
+.profile_edit {
+  button.btn.btn-warning {
+    padding: 7px 20px;
+    border-radius: 12px;
+  }
+}
+.client-screen {
+  background: #fff;
+  border-radius: 12px;
+  .all-client {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+    padding: 3px 7px;
+    margin: 9px 9px;
+    h5 {
+      font-size: 15px;
+      font-weight: bold;
+    }
+    button {
+      background: none;
+      border: none;
+      padding: 6px 8px;
+    }
+    button:hover {
+      background: #f7d693;
+      border-radius: 38px;
+    }
+    svg.svg-inline--fa.fa-pen {
+      
+      color: green;
+      font-size: 20px;
+    }
+    svg.svg-inline--fa.fa-trash {
+      color: red;
+      font-size: 20px;
+    }
+    label {
+      color: #9a9898;
+      font-size: 12px;
+      font-weight: 900;
+      margin: 6px 0;
+    }
+    h4 {
+      margin: 4px 0;
+      font-size: 16px;
+      font-weight: 600;
+      color: #70706f;
+    }
+    p {
+      font-size: 12px;
+    }
+    img {
+      padding: 7px 10px;
+      max-width: 100%;
+    }
+    .edit-content {
+      svg.svg-inline--fa {
+        float: left;
+        margin: 0 7px 0 0;
+      }
+    }
+  }
+}
+
+.table tr td span {
+  padding: 2px 13px;
+  border-radius: 5px;
+  color: #fff;
+}
+.number {
+  color: #df9500 !important;
+}
+.task {
+  padding: 13px 9px 0 13px;
+  border: 1px solid #ccc;
+  margin-top: 11px;
+  border-radius: 10px;
+  span {
+    background: #eee5ff;
+    font-weight: 800;
+    font-size: 16px;
+    padding: 4px 8px;
+    border-radius: 10px;
+  }
+  label.badge-danger {
+    border-radius: 7px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 300;
+  }
+  label.badge-info {
+    border-radius: 7px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 300;
+  }
+  label.badge-success {
+    border-radius: 7px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 300;
+  }
+}

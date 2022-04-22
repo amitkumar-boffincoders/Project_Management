@@ -1,0 +1,59 @@
+.invoice-list {
+  .location {
+    background: #fff;
+    border: 1px solid #e8e5e5;
+  }
+  ul {
+    padding-inline-start: 0;
+  }
+  li {
+    list-style: none;
+  }
+  .justify-content-around.mb-3 {
+    background: #fff8e5;
+  }
+  .name {
+    margin: 14px 0 0 11px;
+    h5 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #70706f;
+    }
+  }
+  button {
+    background: #fff;
+
+    margin: 0 9px;
+    padding: 0 15px;
+    border-radius: 5px;
+  }
+  address {
+    margin-top: 19px;
+  }
+  p {
+    font-size: 14px;
+    color: #868584;
+  }
+  b {
+    color: #000;
+  }
+  button.tablinks.btn.btn-warning {
+    margin: 0 8px 18px 0;
+    padding: 7px 14px;
+  }
+}
+.expenses {
+  svg.svg-inline--fa{
+    margin: 00 0 0 21px;
+  }
+  svg.svg-inline--fa.fa-trash {
+    background: none !important;
+    border: none !important;
+    color: red !important;
+  }
+  svg.svg-inline--fa.fa-pen {
+    background: none !important;
+    border: none !important;
+    color: green !important;
+  }
+}

@@ -1,0 +1,69 @@
+.invoice-list .location {
+  background: #fff;
+  border: 1px solid #e8e5e5;
+}
+
+.invoice-list ul {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+.invoice-list li {
+  list-style: none;
+}
+
+.invoice-list .justify-content-around.mb-3 {
+  background: #fff8e5;
+}
+
+.invoice-list .name {
+  margin: 14px 0 0 11px;
+}
+
+.invoice-list .name h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #70706f;
+}
+
+.invoice-list button {
+  background: #fff;
+  margin: 0 9px;
+  padding: 0 15px;
+  border-radius: 5px;
+}
+
+.invoice-list address {
+  margin-top: 19px;
+}
+
+.invoice-list p {
+  font-size: 14px;
+  color: #868584;
+}
+
+.invoice-list b {
+  color: #000;
+}
+
+.invoice-list button.tablinks.btn.btn-warning {
+  margin: 0 8px 18px 0;
+  padding: 7px 14px;
+}
+
+.expenses svg.svg-inline--fa {
+  margin: 00 0 0 21px;
+}
+
+.expenses svg.svg-inline--fa.fa-trash {
+  background: none !important;
+  border: none !important;
+  color: red !important;
+}
+
+.expenses svg.svg-inline--fa.fa-pen {
+  background: none !important;
+  border: none !important;
+  color: green !important;
+}
+/*# sourceMappingURL=account.css.map */
