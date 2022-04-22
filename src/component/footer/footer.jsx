@@ -5,9 +5,6 @@ function Footer() {
     <div>
       <footer className="footer">2016 - 2020 © BoffinCoders.</footer>
     </div>
-
-
-
   );
 }
 
