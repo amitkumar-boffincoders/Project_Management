@@ -112,51 +112,24 @@ export default function LabTabs() {
             </ul>
           </TabPanel>
           <TabPanel value="2">
-            <Table component={Paper}>
-              <Table sx={{ minWidth: 650 }} aria-label="simple table ">
-                <TableHead>
-                  <TableRow>
-                    <TableCell>
-                      <img src={logo} alt="" />
-                    </TableCell>
-                  </TableRow>
-                </TableHead>
-              </Table>
-            </Table>
+      
             <TableContainer component={Paper}>
+            <div className="m-3">
+            <img src={logo} alt="" />
+            </div>
               <Table sx={{ minWidth: 650 }} aria-label="simple table">
-                <TableHead>
+            
+              <TableHead>
                   <TableRow>
-                    <TableCell className="text-center">
-                      To
-                      <h5>
-                        <b>Google</b>
-                      </h5>
-                      <h6>Attn: John Smith Pymont</h6>
-                      Australia
-                    </TableCell>
-                    <TableCell className="text-center">
-                      From
-                      <h5>
-                        <b>Facebook</b>
-                      </h5>
-                      <h6>Attn: John Smith Pymont</h6>
-                      USA
-                    </TableCell>
+                    <TableCell><b>Description</b></TableCell>
+                    <TableCell align="right"> <b>Days</b></TableCell>
+                    <TableCell align="right"><b>Price</b></TableCell>
+                    <TableCell align="right"><b>Total</b></TableCell>
                   </TableRow>
                 </TableHead>
-              </Table>
-            </TableContainer>
-            <TableContainer component={Paper}>
-              <Table sx={{ minWidth: 650 }} aria-label="simple table">
-                <TableHead>
-                  <TableRow>
-                    <TableCell>Description</TableCell>
-                    <TableCell align="right"> Days</TableCell>
-                    <TableCell align="right">Price</TableCell>
-                    <TableCell align="right">Total</TableCell>
-                  </TableRow>
-                </TableHead>
+                   
+
+               
                 <TableBody>
                   {rows.map((row) => (
                     <TableRow

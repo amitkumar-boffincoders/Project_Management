@@ -16,7 +16,7 @@
   height: auto;
 }
 .team-work {
-  padding: 4px 8px;
+  padding:8px;
   border: 1px solid #d5d5d5;
   margin: 10px 7px;
   border-radius: 7px;
@@ -26,9 +26,14 @@
       margin: 0 3px;
     }
   }
-
+p{
+  margin: 8px 0;
+}
+.perfo {
+  margin: 7px 0;
+}
   h5 {
-    margin: 17px 0;
+    margin: 4px 0;
     font-size: 16px;
     font-weight: 600;
     color: #70706f;
