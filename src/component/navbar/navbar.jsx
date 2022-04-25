@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 
 import logo from "../../images/logo.jpg";
 import minilogo from "../../images/mini-logo.png";
-import profile from "../../images/users/profile.png";
+import circle1 from "../../images/users/circle1.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell, faBars } from "@fortawesome/free-solid-svg-icons";
 import { AuthContext } from "../../context-api/auth.context";
@@ -61,7 +61,7 @@ const Navbar = () => {
                   <ul className="dropdown-menu dropdown-menu-lg">
                     <li className="text-center notifi-title">
                       Notification
-                      <span className="badge badge-xs badge-success">3</span>
+                      
                     </li>
                     <li className="list-group">
                       <a href="" className="list-group-item">
@@ -100,7 +100,7 @@ const Navbar = () => {
                     data-bs-toggle="dropdown"
                     aria-expanded="true"
                   >
-                    <img src={profile} alt="user-img" className="img-circle" />
+                    <img src={circle1} alt="user-img" className="img-circle" />
                   </a>
                   <ul className="dropdown-menu">
                     <li className="list-group">

@@ -672,21 +672,7 @@ h4.modal-title {
   vertical-align: middle;
   width: 40px;
 }
-.icon-list .col-md-3:hover i {
-  -o-transform: scale(2);
-  -webkit-transform: scale(2);
-  moz-transform: scale(2);
-  transform: scale(2);
-}
-.ionicon-list i {
-  font-size: 16px;
-}
-.ionicon-list .col-md-3:hover i {
-  -o-transform: scale(2);
-  -webkit-transform: scale(2);
-  moz-transform: scale(2);
-  transform: scale(2);
-}
+
 /* ==============
   Waves Effect
 ===================*/
@@ -770,19 +756,7 @@ h4.modal-title {
   -ms-transition: none !important;
   transition: none !important;
 }
-.waves-circle {
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  -o-transform: translateZ(0);
-  transform: translateZ(0);
-  text-align: center;
-  width: 2.5em;
-  height: 2.5em;
-  line-height: 2.5em;
-  border-radius: 50%;
-  -webkit-mask-image: none;
-}
+
 .waves-input-wrapper {
   border-radius: 0.2em;
   vertical-align: bottom;
@@ -1977,15 +1951,7 @@ File: Pages
   background: #f8ca4e;
 }
 @media only screen and (min-width: 1170px) {
-  .cd-timeline-img {
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    left: 50%;
-    margin-left: -30px;
-    -webkit-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
-  }
+ 
   .cssanimations .cd-timeline-img.is-hidden {
     visibility: hidden;
   }
@@ -2023,15 +1989,7 @@ File: Pages
   font-size: 14px;
   margin: 10px 0px 10px 0px;
 }
-.cd-timeline-content .cd-read-more {
-  background: #acb7c0;
-  border-radius: 0.25em;
-  color: white;
-  display: inline-block;
-  float: right;
-  font-size: 14px;
-  padding: 0.8em 1em;
-}
+
 .cd-timeline-content .cd-date {
   display: inline-block;
   font-size: 14px;
@@ -2449,6 +2407,18 @@ File: Menu
     margin: 12px 0 0 -36px;
   }
 }
+.nav{
+  .dropdown-toggle::after {
+    position: absolute;
+    right: 0;
+    bottom: 19px;
+    color: #b0adad;
+}
+svg.svg-inline--fa.fa-bell {
+  font-size: 31px !important;
+  margin: 17px 0 0 0;
+}
+}
 .nav > li > a .badge {
   position: absolute;
   right: 10px;
@@ -2457,7 +2427,7 @@ File: Menu
 .profile img {
   border: 2px solid #000000;
   border-radius: 53px;
-  width: 36px;
+  width: 40px;
 }
 .dropdown-menu-lg {
   width: 270px;
@@ -3313,10 +3283,17 @@ ul.task-list li {
   
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1080px) {
   .member {
     img {
       max-width: 100% !important;
+    }
+  }
+  #sidebar-menu {
+    ul{
+      a {
+        padding: 11px 13px !important;
+    }
     }
   }
 

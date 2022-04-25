@@ -87,7 +87,7 @@ export const Icon = () => {
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
                   <FontAwesomeIcon icon={faNavicon} className="m-2"/> mdi
-                    mdi-access-point-network
+                    mdi-navicon
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3 icons-list">
                   <FontAwesomeIcon icon={faGift} className="m-2"/> mdi mdi-gift

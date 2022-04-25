@@ -5,12 +5,13 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 export const Reviews = () => {
   return (
     <section className="content">
-      <div className="dash">
-        <h4>Review</h4>
-      </div>
+     
       <div className="reviews">
         <div className="row">
           <div className="col-sm-4">
+          <div className="dash">
+        <h4>Review</h4>
+      </div>
             <div className="custmor  mb-2">
               <h1>4.0</h1>
               <p>based on 1,032 ratings</p>
