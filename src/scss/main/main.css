@@ -2281,9 +2281,7 @@ File: Pages
 }
 
 @media only screen and (min-width: 1170px) {
-  .cssanimations
-.cd-timeline-block:nth-child(even)
-.cd-timeline-content.bounce-in {
+  .cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
     -webkit-animation: cd-bounce-2-inverse 0.6s;
     animation: cd-bounce-2-inverse 0.6s;
   }
@@ -2621,7 +2619,7 @@ File: Menu
   float: left;
   height: 70px;
   position: relative;
-  width: 240px;
+  width: 188px;
   z-index: 1;
 }
 
@@ -2815,23 +2813,52 @@ input.search-bar:-ms-input-placeholder {
   background: #fff;
 }
 
-.left.side-menu.invisible {
-  overflow-x: hidden;
+.small-menu {
+  margin-left: 74px !important;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  width: 0%;
+}
+
+.sort-menu {
+  width: 74px !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.sort-menu .new-task {
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sort-menu .new-task h4 {
+  display: none;
+}
+
+.sort-menu div#panel2a-content {
+  position: absolute;
+  left: 72px;
+  width: 131%;
+}
+
+.sort-menu svg.svg-inline--fa {
+  margin: 0 0 0 10px !important;
+}
+
+.sort-menu svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  display: none;
 }
 
 .left.side-menu {
+  width: 240px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .content-page {
-  margin-left: 240px;
-  overflow: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  margin-left: 240px;
 }
 
 .content-page > .content {
@@ -2922,230 +2949,57 @@ a.dropdown-item.active {
   padding: 9px 0;
 }
 
-#sidebar-menu ul ul li {
-  border-top: 0;
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1elwnq4-MuiPaper-root-MuiAccordion-root:hover {
+  background: #f5f6fa;
 }
 
-#sidebar-menu ul ul a {
-  color: rgba(0, 0, 0, 0.6);
-  display: block;
-  padding: 15px 13px;
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
   font-size: 14px;
-  font-weight: 800;
+  padding: 14px 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin: 2px 0;
+  position: unset;
 }
 
-#sidebar-menu > ul > li > a {
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1elwnq4-MuiPaper-root-MuiAccordion-root a {
   color: #000000;
   display: block;
   font-weight: 500;
   font-size: 19px;
 }
 
-#sidebar-menu .title {
-  vertical-align: middle;
-  font-size: 14px;
-  margin-top: 2px;
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1elwnq4-MuiPaper-root-MuiAccordion-root svg.svg-inline--fa {
+  font-size: 22px;
+  color: #a5a2a2;
+  margin: 0 12px -3px 0;
 }
 
-#sidebar-menu > ul > li > a > i:hover {
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1elwnq4-MuiPaper-root-MuiAccordion-root svg.svg-inline--fa:hover {
   color: #df9500;
 }
 
-.dropdown-toggle::after {
-  position: absolute;
-  right: 16px;
-  bottom: 26px;
-  color: #b0adad;
-}
-
-#sidebar-menu > ul > li > a > i {
-  display: inline-block;
-  font-size: 22px;
-  line-height: 17px;
-  margin-left: 3px;
-  margin-right: 10px;
-  text-align: center;
-  color: #a5a2a2;
-  vertical-align: middle;
-}
-
-button.btn.dropdown-toggle:hover {
-  background: #f5f6fa;
-  color: #e09a0d;
-}
-
-.dropdown i:hover {
-  color: #e09a0d !important;
-}
-
-#wrapper.enlarged .left.side-menu {
-  padding-top: 0;
-  width: 78px;
-  z-index: 5;
-  overflow: visible !important;
-}
-
-#wrapper.enlarged .left.side-menu #sidebar-menu > ul > li > a {
-  padding: 0 29px;
-}
-
-#wrapper.enlarged .left.side-menu .new-task {
-  background: none;
-}
-
-#wrapper.enlarged .left.side-menu .new-task h4 {
-  display: none;
-}
-
-#wrapper.enlarged .left.side-menu .new-task .fa {
-  margin: 0 0 0 8px;
-}
-
-#wrapper.enlarged .left.side-menu span.title {
-  overflow: hidden !important;
-}
-
-#wrapper.enlarged .left.side-menu ul.dropdown-menu.show {
-  position: absolute;
-  left: 78px !important;
-}
-
-#wrapper.enlarged .left.side-menu #sidebar-menu button.btn.dropdown-toggle {
-  padding: 6px 15px;
-}
-
-#wrapper.enlarged .left.side-menu #sidebar-menu > ul > li > a:hover {
-  text-decoration: none !important;
-}
-
-#sidebar-menu .waves-effect {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 17px 14px;
-  font-size: 14px;
-  width: 100%;
-  text-align: left;
-}
-
-#sidebar-menu .waves-effect svg.svg-inline--fa {
-  margin: 0 12px;
-  font-size: 22px;
-  color: #a5a2a2;
-}
-
-#sidebar-menu .waves-effect svg.svg-inline--fa:hover {
-  color: #df9500;
-}
-
-#sidebar-menu .waves-effect .title {
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1elwnq4-MuiPaper-root-MuiAccordion-root .title {
   vertical-align: middle;
   font-size: 14px;
   color: black;
 }
 
-#sidebar-menu .waves-effect .title:hover {
-  color: #df9500;
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1elwnq4-MuiPaper-root-MuiAccordion-root .title:hover {
+  border-radius: 5px;
+  background: #df9500;
+  width: 100% !important;
+  color: #fff;
 }
 
-#sidebar-menu .waves-effect:hover {
-  background-color: #f5f6fa;
-  text-decoration: none;
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1elwnq4-MuiPaper-root-MuiAccordion-root div#panel2a-content {
+  background: #fdf1d1;
 }
 
-#wrapper.enlarged .left.side-menu #sidebar-menu > ul > li > a i {
-  margin-right: 20px !important;
-  margin-left: 0px !important;
-  font-size: 22px;
-}
-
-#wrapper.enlarged .left.side-menu span.pull-right {
-  display: none !important;
-}
-
-#wrapper.enlarged .left.side-menu #sidebar-menu ul > li {
-  position: relative;
-  white-space: nowrap;
-}
-
-#wrapper.enlarged .left.side-menu #sidebar-menu ul > li:hover > a {
-  position: relative;
-}
-
-#wrapper.enlarged .left.side-menu #sidebar-menu ul > li:hover > ul {
-  display: block;
-  left: 70px;
-  position: absolute;
-  width: 190px;
-}
-
-#wrapper.enlarged .left.side-menu #sidebar-menu ul > li:hover > ul a {
-  background: #2a323c;
-  border: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  padding-left: 15px;
-  position: relative;
-  width: 190px;
-  z-index: 6;
-}
-
-#wrapper.enlarged .left.side-menu #sidebar-menu ul > li:hover > ul a:hover {
-  color: #ffffff;
-}
-
-#wrapper.enlarged .left.side-menu #sidebar-menu ul > li:hover a span {
-  display: inline;
-}
-
-#wrapper.enlarged .left.side-menu #sidebar-menu a.subdrop {
-  color: #ffffff !important;
-}
-
-#wrapper.enlarged .left.side-menu #sidebar-menu ul ul li:hover > ul {
-  display: block;
-  left: 190px;
-  margin-top: -36px;
-  position: absolute;
-  width: 190px;
-}
-
-#wrapper.enlarged .left.side-menu #sidebar-menu ul ul li > a span.pull-right {
-  -ms-transform: rotate(270deg);
-  -webkit-transform: rotate(270deg);
-  position: absolute;
-  right: 20px;
-  top: 12px;
-  transform: rotate(270deg);
-}
-
-#wrapper.enlarged .left.side-menu #sidebar-menu ul ul li.active a {
-  color: #ffffff;
-}
-
-#wrapper.enlarged .left.side-menu .user-details {
-  display: none;
-}
-
-#wrapper.enlarged .content-page {
-  margin-left: 81px;
-}
-
-#wrapper.enlarged .topbar .topbar-left {
-  width: 70px !important;
-}
-
-#wrapper.enlarged .topbar .topbar-left .logo {
-  display: none;
-  opacity: 0;
-}
-
-#wrapper.enlarged .topbar .topbar-left .logo-sm {
-  display: inline-block;
-}
-
-#wrapper.enlarged .footer {
-  left: 70px;
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1elwnq4-MuiPaper-root-MuiAccordion-root div#panel2a-content .MuiAccordionDetails-root.css-15v22id-MuiAccordionDetails-root:hover {
+  background: #df9500;
+  border-radius: 5px;
+  color: #fff;
 }
 
 .user-details {
@@ -3298,10 +3152,6 @@ File: Responsive
   }
   .footer {
     left: 0 !important;
-  }
-  .side-menu.left,
-  .sidebar-inner {
-    overflow: scroll !important;
   }
 }
 
@@ -3662,14 +3512,15 @@ ul.task-list li {
     border: 1px solid #ccc;
     margin: 9px 10px;
   }
+  .sort-menu {
+    width: 0 !important;
+    opacity: 0;
+  }
 }
 
 @media only screen and (max-width: 1080px) {
   .member img {
     max-width: 100% !important;
-  }
-  #sidebar-menu ul a {
-    padding: 11px 13px !important;
   }
 }
 /*# sourceMappingURL=main.css.map */

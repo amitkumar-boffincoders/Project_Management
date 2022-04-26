@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, } from "react-router-dom";
 import { routes } from "../../pages/routes";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAdd } from "@fortawesome/free-solid-svg-icons";
@@ -19,6 +19,11 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import { SidebarContext } from '../../context-api/sidebar.context'
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
 const MenuProps = {
@@ -58,10 +63,10 @@ const style = {
 
 const Sidebar = () => {
 
-      // sidenav
-      const { isVisible, setIsVisible } = useContext(SidebarContext);
+  // sidenav
+  const { isVisible, } = useContext(SidebarContext);
 
-      // sidenav
+  // sidenav
   const [value, setValue] = React.useState(new Date("2014-08-18T21:11:54"));
 
   const handleChange = (newValue) => {
@@ -72,7 +77,7 @@ const Sidebar = () => {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
   const theme = useTheme();
-  const [personName, setPersonName] = React.useState([]);
+  const [personName,] = React.useState([]);
   useEffect(() => {
     (() => {
       setRoutesState(routes);
@@ -80,15 +85,66 @@ const Sidebar = () => {
   }, [routes]);
   return (
 
-    <div className={`${isVisible ? "left side-menu invisible": "left side-menu "} `}>
+    <div className={`${isVisible ? "left side-menu" : "left side-menu sort-menu"} `}>
 
       <div className="sidebar-inner slimscrollleft">
         <div id="sidebar-menu">
+
           <ul>
             {routesState.map((value, key) => {
               return (
                 <>
-                  <li
+                  <Accordion expanded={value.isOpen ? true : false}
+                    key={value.key}
+                    onClick={() => {
+                      if (value?.subpaths.length > 0)
+                        setRoutesState(prevState => {
+                          prevState.forEach((x) => {
+                            if (x.key !== value.key && x.isOpen)
+                              x.isOpen = !x.isOpen;
+                            if (x.key === value.key) {
+                              x.isOpen = x.isOpen ? false : true
+                            }
+                          });
+                          return [...prevState];
+                        });
+                    }}>
+
+                    <AccordionSummary
+                      expandIcon={<ExpandMoreIcon />}
+                      aria-controls="panel2a-content"
+                      id="panel2a-header"
+                    >
+                      {value?.subpaths?.length <= 0 ?
+                        <Link to={value?.link}>
+                          <Typography>
+                            <FontAwesomeIcon icon={value.icon} />
+                            {isVisible && <span className="title"> {value.name} </span>}
+                          </Typography>
+                        </Link>
+                        : <Typography>
+                          <FontAwesomeIcon icon={value.icon} />
+                          {isVisible && <span className="title"> {value.name} </span>}
+                        </Typography>}
+                    </AccordionSummary>
+                    {value?.subpaths?.length > 0 &&
+                      value.subpaths.map((subpath) => (
+                        <AccordionDetails>
+                          <Typography>
+                            <li>
+                              <Link to={value.link + "/" + subpath.link}>
+                                <span className="title">
+                                  {subpath.name}
+                                </span>
+                              </Link>
+                            </li>
+                          </Typography>
+                        </AccordionDetails>
+                      )
+                      )}
+                  </Accordion>
+
+                  {/* <li
                     className={value.isOpen ? "active" : ""}
                     key={value.key}
                     onClick={() => {
@@ -130,7 +186,8 @@ const Sidebar = () => {
                         </NavLink>
                       )}
                     </div>
-                  </li>
+                  </li>  */}
+
                 </>
               );
             })}
@@ -141,8 +198,8 @@ const Sidebar = () => {
               <h4>Add New Task</h4>
             </button>
           </div>
+
         </div>
-        <div className="clearfix"></div>
       </div>
       <div className="modal">
         <Modal

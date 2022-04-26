@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+
 import {
   faMobileAlt,
   faGift,
@@ -59,9 +60,11 @@ import {
   faBackward,
   faLadderWater,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 export const Icon = () => {
   return (
     <section className="content">
+      
       <div className="reviews">
         <div className="row">
           <div className="page-header">
@@ -69,7 +72,7 @@ export const Icon = () => {
             <nav aria-label="breadcrumb">
               <ol className="breadcrumb">
                 <li className="breadcrumb-item">
-                  <a href="">Icons</a>
+                  <Link href="">Icons</Link>
                 </li>
                 <li className="breadcrumb-item active" aria-current="page">
                   Material design icons

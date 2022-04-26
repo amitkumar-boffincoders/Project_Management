@@ -24,9 +24,9 @@ const Dashboard = () => {
     <div id="wrapper">
       <Navbar />
       <Sidebar />
-             {/* sidenav */}
-          <div className={`${isVisible ? "content-page m-0": "content-page "} `} >
-              {/* sidenav */}
+      {/* sidenav */}
+      <div className={`${isVisible ? "content-page " : "content-page small-menu"} `} >
+        {/* sidenav */}
         <div className="content">
           <Outlet />
         </div>
